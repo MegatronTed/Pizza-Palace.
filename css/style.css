@@ -1,0 +1,155 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-image:url("https://fsb.zobj.net/crop.php?r=_mDzzRvIKqefi37dyB3hoQCSBQpD1Rx3CzEmZLejnwT4_QTxzPJFHerAVHr9WjHLWV8ESZrxuX0-NLblYyURwAwzhNL8W3QLw4ELu4n4qwmdSa8QsfcTBkkvVTwUh5KpKrZd3XBFUZJCgzfB");
+    background-size: cover;
+  }
+  .title{
+    text-align: center;
+    font-style:italic ;
+    font-size: 90px;
+    color:blue;
+  }
+  .text-wrapper1,p{
+    text-align: center;
+    color: white;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    background-image: image("https://fsa.zobj.net/crop.php?r=To_muOPDlqt8xiXfzFyrbxL0-bYpfGtsQFDSf7xbOMaBXZw9fYerqYVdvwHwqXC-pUaEJ8yBm_UDRJR6JP2h-RPHDseJICbG9l0KoxA528cbp8SjL230rT-bEhuasuqCCaTN2Lx45WEuKgsI");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .menu{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    color:blueviolet;
+  
+  }
+  .card{
+    font-family: 'Gayathri', sans-serif;
+  }
+  .one{
+    background-color: blueviolet;
+  }
+  .two{
+    background-color:burlywood;
+  }
+  .three{
+    background-color:yellowgreen;
+  
+  }
+  .topping{
+    transition:transform .2s;
+  }
+  .text-wrapper2{
+    background-image: url();
+    text-align: center;
+    color: white;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .zoom {
+    transition:transform .2s;
+  }
+  .zoom:hover {
+    transform: scale(1.1);
+  }
+  .background{
+    background-color:transparent;
+  }
+  h2{
+    font-size: 40px;
+    font-style:italic;
+    color: black;
+  }
+  .order{
+    display: inline;
+    width: 30%px;
+  }
+  .modal-content{
+    border-color: transparent;
+    background-color: transparent;
+    font-family: 'Gayathri', sans-serif;
+  }
+  .checkout{
+    margin-top: 140px;
+    float: right;
+  }
+  .form-control{
+    width:500px;
+  }
+  .receipt{
+    text-align: center;
+    font-size: 20px;
+    font-style:italic;
+  }
+  .text-wrapper4{
+    background-image: url("https://fsb.zobj.net/crop.php?r=fZhwhyMrJ7ek5UMM7cW5ozdp2Us7KmjR-zR6zWFNJfvHhoD66s8vRxf_rvaT2MldAGBeQaI26dbizYk0yclGmMgjKbqF_rHRYH4Bc4QOFySQ5uvZKFzvaU-319MmpXmdWvuJPk-xhqYqbOl-aZbor6OAC4AV7Z1Kkt4iGJcqle4bBCvfY-ey9qfSGzE");
+    text-align: center;
+    color: white;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+  }
+  #receiptvalue{
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 4px;
+  }
+  .lables {
+    margin-top: 20px;
+  
+  }
+  .checkoutbtn{
+    margin-top:20px;
+  }
+  /* MEDIA QUERIES */
+  @media screen  and  (max-width:1000px)  {
+    .text-wrapper{
+      width:100%;
+      background-size: cover;
+      justify-content: center;
+    }
+    .text-wrapper img{
+      width:100%;
+      background-size: cover;
+    }
+    .title , .title1{
+      width: 100%;
+      text-align: center;
+      font-size: 60px;
+      margin-left: 5%;
+    }
+    .menu{
+      width: 100%;
+      margin: 20px;
+    }
+    .card{
+      width:100%;
+      justify-content: center;
+      margin: 20px;
+    }
+    .card img{
+      width: 100%;
+      background-size: cover;
+    }
+    .topping{
+      width:100%;
+    }
+    .form-control{
+      width:80%;
+      margin-left: 20px;
+    }
+  }

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src=js/scripts.js> </script> 
+    <title>Pizza Palace.</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="text-wrapper-X">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="col-md-12" id="home">
+            <div class="text-wrapper">
+              <h1 class="title">Pizza Palace.</h1>
+              <p class="title1">A PIZZA LIKE NO OTHER.</p>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid" id="types">
+          <h1 class="menu" id="menu">MENU</h1>
+          <div class="container">
+            <div class="text-wrapper3">
+              <div class="owl-carousel owl-theme">
+                <div class="row">
+                  <div class="row">
+                    <div class="col-md-4 item">
+                        <div class="card-body">
+                          <h5 class="card-title">sweet and sour pizza</h5>
+                          <p class="card-text">mouth watering </p>
+                          <p class="card-footer" id="sweet and sour2" value="sweet and sour 1050">kes 1050</p>
+                          <a href="#checkout" id="sweet1" class="btn btn-warning" value="sour">order now</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 item">
+                      <div class="card zoom two">
+                        <img src="images/" class="card-img-top img-thumbnail" alt="">
+                        <div class="card-body">
+                          <h5 class="card-title">ham and cheese pizza</h5>
+                          <p class="card-text">excuisite ham and cheese pizza.</p>
+                          <p class="card-footer">kes 1170</p>
+                          <a href="#checkout"><p id="ham" class="btn btn-warning"
+                            value="">order now</p></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 item">
+                        <div class="card zoom three">
+                          <img src="images/" class="card-img-top img-thumbnail" alt="">
+                          <div class="card-body">
+                            <h5 class="card-title">Bacon pizza</h5>
+                            <p class="card-text">executive Bacon-sauce pizza</p>
+                            <p class="card-footer">kes 1080</p>
+                            <a href="#checkout"><p id="Bacon-ssauce" class="btn btn-warning">order now</p></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <section class="order-form">
+                  <div id="input">
+                    <form id="myforms">
+                      <h1>Order.</h1>
+                      first name:<input type="text" name="first name" placeholder="your name">
+                      last name:<input type="text" name="last name" placeholder="your name">
+                      address:<input type= "text" name="your email" placeholder="your Email">
+                      <p>Enter your pizza size</p>
+                      <select id="sizeselector">
+                        <option disabled selected>size</option>
+                        <option id="regular" value="1,000">Regular</option>
+                        <option id="medium" value="1,500">Medium</option>
+                        <option id="large" value="2,000">Large</option>
+                      </select>
+                      <p>Enter all pizza toppings all that applys.</p>
+                      <input type='checkbox' value="150"> extra-cheese KSH 150
+                      <input type='checkbox' value="150"> Bacon KSH 150
+                      <input type='checkbox' value="150"> Mashroom KSH 150
+                      <input type='checkbox' value="150"> Onions KSH 100
+                      <input type='checkbox' value="150"> Black-Olives KSH 150
+                      <input type='checkbox' value="150"> Green-Peppers KSH 150
+                      <input type='checkbox' value="150"> Chicken-Sauce KSH 200
+                    </form>
+                  <label for="delivery" class="lables"><b>Delivery</b></label>
+                  <select required class="form-control" id="delivery">
+                    <option></option>
+                    <option id="delivery1" value="200 KES delivery">Delivery -KES 200</option>
+                    <option id="pickup" value="0 KES pickup">pickup</option>
+                  </select>
+                  <label for="amount" class="lables">Quantity</label>
+                  <input id="amount" class="product-quantity form-control" name="product_quantity" value="0">
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+<form class="form-container checkout">
+  <div class="col-md-6" >
+    <label for="name" class="lables"><b>Name</b></label>
+    <input type="text"class="form-control" id="name" placeholder="name.." name="name" required>
+    <label for="phone" class="lables"><b>contacts</b></label>
+    <input type="text" class="form-control" id="number" placeholder="07XXXXXXXX" name="number" required>
+    <button type="button" class="btn summary">
+    </button>
+    <label for="delivery" class="lables"><b>Instructions</b></label>
+    <textarea type="text" id="address" class="form-control" placeholder="instructions" required></textarea>
+    <a href="#receipt"><button type="button" class="btn-warning checkoutbtn" id="checkout7"onclick="getValue();">Checkout</button></a>
+  </form>
+<div class="container-fluid receipt">
+  <h1 class="menu">Receipt</h1>
+  <div class="text-wrapper4">
+    <div class="col-md-12">
+      <div class="receipt" id="receipt">
+        <p id="receiptvalue"></p>
+        <p id="receiptvalue1"></p>
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+  </html>

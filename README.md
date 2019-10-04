@@ -30,5 +30,7 @@ From the 1950s onwards, the rapid pace of economic and technological change in t
 Paradoxically, the effect of these changes was to make pizza both more standardised and more susceptible to variation. While the form – a dough base, topped with thin layers of tomato and cheese – became more firmly entrenched, the need to appeal to customers’ desire for novelty led to ever more elaborate varieties being offered, so that now Pizza Hut in Poland sells a spicy ‘Indian’ version and Domino’s in Japan has developed an ‘Elvis’ pizza, with just about everything on it.
 
 Today’s pizzas are far removed from those of the lazzaroni; and many pizza purists – especially in Naples – balk at some of the more outlandish toppings that are now on offer. But pizza is still recognisable as pizza and centuries of social, economic and technological change are baked into every slice.
-### DESCRIPTION OF THE PROJECT:
-
+### DESCRIPTION OF THE PROJECT IN DETAIL:
+Pizza-Palace is a pizza menu like no other.It is a landing page where pizza is ordered and made easy for purchase hence mouth watering experience.
+Pizza-Palace has platform for easy, fast and affordable quality pizza opened to all, hence open to all 24/7 hours and on time.Be a master of your own pizza order and on time delivery.
+####

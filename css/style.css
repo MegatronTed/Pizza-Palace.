@@ -66,10 +66,10 @@ body{
     border-color: transparent;
     background-color: transparent;
     font-family: 'Gayathri', sans-serif;
+    text-align: center;
   }
   .checkout{
     margin-top: 140px;
-    float: right;
   }
   .form-control{
     width:500px;
@@ -92,9 +92,6 @@ body{
   .lables {
     margin-top: 20px;
   
-  }
-  .checkoutbtn{
-    margin-top:20px;
   }
   /* MEDIA QUERIES */
   @media screen  and  (max-width:1000px)  {
@@ -133,4 +130,9 @@ body{
       width:80%;
       margin-left: 20px;
     }
-  
+  }
+  .form-container{
+    text-align: center;
+    font-style: italic;
+    color:greenyellow;
+  }

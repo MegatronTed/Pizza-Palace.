@@ -1,12 +1,10 @@
-//Business logic
-// getting values for pizza
+//Business logic.
+// getting values for pizza.
 function getValue() {
-  var getextracheese= document.getElementById("extra-cheese");
+  var pizzaNum= document.getElementById("Pizza");
   var pizza =getPizza.options[getPizza.selectedIndex].value;
   var getSize = document.getElementById("size");
   var size = getSize.options[getSize.selectedIndex].value;
-  var getCrust = document.getElementById("");
-  var crust = getCrust.options[getCrust.selectedIndex].value;
   var getToppings = document.getElementById("delivery");
   var toppings = getToppings.options[getToppings.selectedIndex].value;
   var getAmount = document.getElementById("amount").value;
@@ -38,4 +36,5 @@ function getValue() {
     alert("your order is on the way " + name + "!");
   }
 };
+
 

@@ -33,4 +33,9 @@ Today’s pizzas are far removed from those of the lazzaroni; and many pizza pur
 ### DESCRIPTION OF THE PROJECT IN DETAIL:
 Pizza-Palace is a pizza menu like no other.It is a landing page where pizza is ordered and made easy for purchase hence mouth watering experience.
 Pizza-Palace has platform for easy, fast and affordable quality pizza opened to all, hence open to all 24/7 hours and on time.Be a master of your own pizza order and on time delivery.
-####
+#### TECHNOLOGICAL USE.
+Used HTML to create forms and checkbox.Used also style.css to style my HTML content,javaScript for functionality.
+Used javascript to place orders on the Pizza menu.
+# LICENSE.
+This project is licensed under the terms of the MIT license. Copyright (c) 2019 MegatronTed.
+

@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin: 0;
     background-repeat: no-repeat;
-    background-image:url(../images./pizza.jpg);
+    background-image:url("https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjwh5KrqInlAhUK1BoKHal8AXYQjRx6BAgBEAQ&url=https%3A%2F%2Funsplash.com%2Fimages%2Ffood%2Fpizza&psig=AOvVaw2Cyig62BPF4wrDjCCOGliX&ust=1570509064725965");
     background-size: cover;
   }
   .title{

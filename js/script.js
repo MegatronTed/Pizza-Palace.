@@ -1,11 +1,10 @@
-
 // getting values for pizza
 function getValue() {
-  var getPizza = document.getElementById("pizza7");
+  var getextracheese = document.getElementById(" extra-cheese");
   var pizza =getPizza.options[getPizza.selectedIndex].value;
   var getSize = document.getElementById("size");
   var size = getSize.options[getSize.selectedIndex].value;
-  var getCrust = document.getElementById("crust");
+  var getCrust = document.getElementById("");
   var crust = getCrust.options[getCrust.selectedIndex].value;
   var getToppings = document.getElementById("delivery");
   var toppings = getToppings.options[getToppings.selectedIndex].value;

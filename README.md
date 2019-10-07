@@ -37,5 +37,5 @@ Pizza-Palace has platform for easy, fast and affordable quality pizza opened to 
 Used HTML to create forms and checkbox.Used also style.css to style my HTML content,javaScript for functionality.
 Used javascript to place orders on the Pizza menu.
 # LICENSE.
-This project is licensed under the terms of the MIT license. Copyright (c) 2019 MegatronTed.
+This project is licensed under the terms of the MIT license. Copyright (c) 2019 MegatronTed
 

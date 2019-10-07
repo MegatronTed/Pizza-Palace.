@@ -1,6 +1,7 @@
+//Business logic
 // getting values for pizza
 function getValue() {
-  var getextracheese = document.getElementById(" extra-cheese");
+  var getextracheese= document.getElementById("extra-cheese");
   var pizza =getPizza.options[getPizza.selectedIndex].value;
   var getSize = document.getElementById("size");
   var size = getSize.options[getSize.selectedIndex].value;

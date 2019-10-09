@@ -1,7 +1,5 @@
 body{
-    padding:0%;
-    margin: 0;
-    background-image: url("/images/wp15.jpg");
+    background-image: url(/images/wp15.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -25,7 +23,6 @@ body{
     margin-bottom: 40px;
     font-size: 50px;
     color:blue;
-  
   }
   .card{
     font-style: italic;
@@ -39,7 +36,7 @@ body{
     color:blue;
   }
   .zoom {
-    transition:transform .2s;
+    transition:2s;
   }
   .zoom:hover {
     transform: scale(1.1);

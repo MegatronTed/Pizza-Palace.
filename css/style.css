@@ -12,6 +12,8 @@ body{
     font-style:italic ;
     font-size: 90px;
     color:blue;
+    font-family: 'Courgette', cursive;
+    font-family: 'Notable', sans-serif;
   }
   .text-wrapper1,p{
     text-align: center;
@@ -35,6 +37,7 @@ body{
     text-align: center;
     padding-top: 10%;
     padding-bottom: 5%;
+    color:blue;
   }
   .zoom {
     transition:transform .2s;
@@ -45,7 +48,7 @@ body{
   .order{
     display: inline;
   }
-  /*.modal-content{
+  .modal-content{
     border-color: transparent;
     background-color: transparent;
     font-family: 'Gayathri', sans-serif;
@@ -77,22 +80,30 @@ body{
     margin-top: 20px;
   
   }
+  .form-container{
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    color:white;
+  }
+
   /* MEDIA QUERIES */
   @media screen  and  (max-width:1000px)  {
     .text-wrapper{
       width:100%;
-      background-size: cover;
-      justify-content: center;
+      justify-content:center;
     }
-    .text-wrapper img{
+    /*.text-wrapper img{
       width:100%;
       background-size: cover;
     }
-    .title , .title1{
+    .p{
       width: 100%;
       text-align: center;
-      font-size: 60px;
+      font-size: 70px;
       margin-left: 5%;
+      font-family: 'Courgette', cursive;
+      font-family: 'Notable', sans-serif;
     }
     .menu{
       width: 100%;

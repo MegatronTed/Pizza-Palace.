@@ -1,4 +1,3 @@
-//Business logic.
 // getting values for pizza.
 function getValue() {
   var pizzaNum= document.getElementById("Pizza");
@@ -14,10 +13,9 @@ function getValue() {
   var delivery = getDelivery.options[getDelivery.selectedIndex].value;
   // set values for variables
   document.getElementById("receiptvalue").innerHTML="Your order: <br>" + pizza + "</br>" +size +"<br>"
-  + crust + "<br>" + topping+ "<br>" + getAmount + "<br>" + delivery;
+  + "<br>" + topping+ "<br>" + getAmount + "<br>" + delivery;
   var pizzaNum = parseInt(pizza);
   var sizeNum = parseInt(size);
-  var crustNum = parseInt(crust);
   var toppingNum = parseInt(topping);
   var getAmountNum = parseInt(getAmount);
   var deliveryNum = parseInt(delivery);

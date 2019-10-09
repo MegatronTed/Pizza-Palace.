@@ -5,7 +5,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
   }
   .title{
     text-align: center;
@@ -62,9 +61,9 @@ body{
   }
   .receipt{
     text-align: center;
-    font-size: 20px;
-    font-style:italic;
-    font
+    font-size: 40px;
+    font-family: 'Courgette', cursive;
+    font-family: 'Notable', sans-serif;
   }
   .text-wrapper4{
     text-align: center;
